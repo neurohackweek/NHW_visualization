@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexRight]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1418337267_100610/STRUCTURAL//100610/MNINonLinear/Native/100610.R.BA.native.label.gii:
+/home/HCPpipeline/pipeline_tools/Pipelines/global/binaries/caret7/bin_rh_linux64/../exe_rh_linux64/wb_command -gifti-label-add-prefix /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1418337267_100610/STRUCTURAL//100610/MNINonLinear/Native/100610.R.BA.native.label.gii R_ /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1418337267_100610/STRUCTURAL//100610/MNINonLinear/Native/100610.R.BA.native.label.gii
+
+/HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1418337267_100610/STRUCTURAL//100610/MNINonLinear/Native/100610.R.sphere.MSMSulc.native.surf.gii:
+/home/HCPpipeline/pipeline_tools/Pipelines/global/binaries/caret7/bin_rh_linux64/../exe_rh_linux64/wb_command -metric-math var * -1 /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1418337267_100610/STRUCTURAL//100610/MNINonLinear/Native/100610.R.sulc.native.shape.gii -var var /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1418337267_100610/STRUCTURAL//100610/MNINonLinear/Native/100610.R.sulc.native.shape.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Version: Beta 0.85
+Qt Compiled Version: 4.8.4
+Qt Runtime Version: 4.8.4
+commit: 7a481e8daa6b61b160aac7645ac08e3a57ed1705
+commit date: 2014-05-15 19:41:22 -0500
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/home/HCPpipeline/pipeline_tools/Pipelines/global/binaries/caret7/bin_rh_linux64/../exe_rh_linux64/wb_command -label-resample /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1418337267_100610/STRUCTURAL//100610/MNINonLinear/Native/100610.R.BA.native.label.gii /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1418337267_100610/STRUCTURAL//100610/MNINonLinear/Native/100610.R.sphere.MSMSulc.native.surf.gii /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1418337267_100610/STRUCTURAL//100610/MNINonLinear/fsaverage_LR32k/100610.R.sphere.32k_fs_LR.surf.gii BARYCENTRIC /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1418337267_100610/STRUCTURAL//100610/MNINonLinear/fsaverage_LR32k/100610.R.BA.32k_fs_LR.label.gii -largest]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1418337267_100610/STRUCTURAL/100610]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="0" Green="0" Blue="0" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0" Green="0.360784" Blue="0.0901961" Alpha="1"><![CDATA[R_BA1]]></Label>
+      <Label Key="2" Red="0.513726" Green="0.580392" Blue="1" Alpha="1"><![CDATA[R_BA2]]></Label>
+      <Label Key="3" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[R_BA3a]]></Label>
+      <Label Key="4" Red="1" Green="0.4" Blue="0.2" Alpha="1"><![CDATA[R_BA3b]]></Label>
+      <Label Key="5" Red="0.768627" Green="1" Blue="0.0784314" Alpha="1"><![CDATA[R_BA4a]]></Label>
+      <Label Key="6" Red="1" Green="0.2" Blue="0.8" Alpha="1"><![CDATA[R_BA4p]]></Label>
+      <Label Key="7" Red="0.00392157" Green="0.14902" Blue="0.6" Alpha="1"><![CDATA[R_BA6]]></Label>
+      <Label Key="8" Red="0.6" Green="0" Blue="0.14902" Alpha="1"><![CDATA[R_BA44]]></Label>
+      <Label Key="9" Red="0.45098" Green="0.6" Blue="0" Alpha="1"><![CDATA[R_BA45]]></Label>
+      <Label Key="10" Red="0.6" Green="0.0588235" Blue="0" Alpha="1"><![CDATA[R_V1]]></Label>
+      <Label Key="11" Red="0" Green="0.839216" Blue="0.505882" Alpha="1"><![CDATA[R_V2]]></Label>
+      <Label Key="12" Red="0.607843" Green="0" Blue="0.6" Alpha="1"><![CDATA[R_MT]]></Label>
+      <Label Key="13" Red="0.129412" Green="0.588235" Blue="0.980392" Alpha="1"><![CDATA[R_perirhinal]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[100610_R_BA]]></Value>
+      </MD>
+   </MetaData>
+   <Data>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</Data>
+</DataArray>
+</GIFTI>
