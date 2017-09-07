@@ -3,6 +3,8 @@
 
 # # Interactive longitudinal volumetric data visualization using `niwidgets`
 
+# You will need `numpy` version 1.13 to be able to use `niwidgets`.
+
 # ## Basic `niwidgets` functionality using 3D volumes
 
 # In[ ]:
