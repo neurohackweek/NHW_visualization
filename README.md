@@ -1,4 +1,4 @@
-## Surface and interactive Visualization Group, Neurohackweek, 8 Sept 2017
+# Surface and Interactive Visualization Group, Neurohackweek, 8 Sept 2017
 
 We developed a function for surface visualization based on ipyvolume within 
 jupyter notebook as well as possibilites to overlay functional files on the surface.
