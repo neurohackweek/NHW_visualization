@@ -5,8 +5,8 @@ import ipyvolume
 import ipyvolume.pylab as p3
 import numpy as np
 
-def showSurface(surface,overlay=None,frame=0,newfigure=True,colormap='summer',figsize=np.array([600,600]),
-                figlims=np.array([[-100,100],[-100,100],[-100,100]])):
+def showSurface(surface,overlay=None,frame=0,newfigure=True,colormap='summer',figsize=np.array([300,400]),
+                figlims=np.array([[-75,75],[-75,75],[-75,75]])):
     '''
     Displays a surface mesh in gifti or FreeSurfer (FS) surface format with/without an overlay inside
     Jupyter notebook for interactive visualization.
