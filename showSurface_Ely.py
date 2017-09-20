@@ -53,7 +53,6 @@ def showSurface(surface,overlay=None,frame=0,newfigure=True,colormap='summer',fi
         except:
             raise ValueError('Please provide a valid gifti file.')
 
-    
     if not isinstance(frame,int):
         raise ValueError('Please provide a valid integer frame index.')
     
@@ -74,24 +73,18 @@ def showSurface(surface,overlay=None,frame=0,newfigure=True,colormap='summer',fi
             activation = annot[0]
         elif (file_extension in ('.curv','.thickness','.sulc')):
             activation = nb.freesurfer.read_morph_data(overlay)
-#        elif (file_extension in ('.dlabel.nii','.dscalar.nii','.dconn.nii','.dtseries.nii')):
-#            left,right,sub=csplit(overlay)
 
-            
     if isinstance(overlay,nb.gifti.gifti.GiftiImage):
         try:
             activation=overlay.darrays[0].data
         except:
             raise ValueError('Please provide a valid gifti file')
             
-            
-    
     if showZeroes is False:
         try:
             mkeep,mkill=zmask(surface,overlay)
         except:
             raise ValueError('Overlay required for medial wall masking.')
-    
     
     if newfigure:
 
@@ -107,7 +100,6 @@ def showSurface(surface,overlay=None,frame=0,newfigure=True,colormap='summer',fi
         fig.ylim = (figlims[1][0], figlims[1][1])
         fig.zlim = (figlims[2][0], figlims[2][1])
 
-        
     # plot surface
     if overlay is None:
         p3.plot_trisurf(x, y, z, triangles=vertex_edges.data)
